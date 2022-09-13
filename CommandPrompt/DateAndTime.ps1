@@ -1,3 +1,7 @@
+## Enable ExecutionPolicy
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
 ## Timezone for Computer:
 
 Set-TimeZone -name "Turkey Standard Time"
