@@ -30,7 +30,7 @@ Specifies the internal SSL requirement for Outlook Anywhere. Defaults to True (S
 Specifies the external SSL requirement for Outlook Anywhere. Defaults to True (SSL required).
 
 .EXAMPLE
-.\ConfigureExchangeURLs.ps1 -Server sydex1 -InternalURL mail.exchangeserverpro.net -ExternalURL mail.exchangeserverpro.net
+.\ConfigureExchangeURLs.ps1 -Server sydex1 -InternalURL mail.exchangeserverpro.net -ExternalURL mail.exchangeserverpro.net -AutodiscoverSCP autodiscover.exchangeserverpro.net
 
 .EXAMPLE
 .\ConfigureExchangeURLs.ps1 -Server sydex1,sydex2 -InternalURL mail.exchangeserverpro.net -ExternalURL mail.exchangeserverpro.net
